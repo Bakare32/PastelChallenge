@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let newsViewModel = NewsViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
+        getStories()
+    }
+    
+    func getStories() {
+        newsViewModel.getNews(apiKey: api_key)
+        newsViewModel.fetchAllNews()
     }
 
 

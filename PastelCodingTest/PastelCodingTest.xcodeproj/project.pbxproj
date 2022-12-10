@@ -16,6 +16,12 @@
 		04AC68832944DE8A003322FA /* PastelCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68822944DE8A003322FA /* PastelCodingTestTests.swift */; };
 		04AC688D2944DE8A003322FA /* PastelCodingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC688C2944DE8A003322FA /* PastelCodingTestUITests.swift */; };
 		04AC688F2944DE8A003322FA /* PastelCodingTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC688E2944DE8A003322FA /* PastelCodingTestUITestsLaunchTests.swift */; };
+		04AC689C2944E0B3003322FA /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC689B2944E0B3003322FA /* NewsModel.swift */; };
+		04AC689E2944E0DE003322FA /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC689D2944E0DE003322FA /* ApiHelper.swift */; };
+		04AC68A02944E10D003322FA /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC689F2944E10D003322FA /* ConstantStrings.swift */; };
+		04AC68A22944E144003322FA /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A12944E144003322FA /* NewsViewModel.swift */; };
+		04AC68A42944E3C3003322FA /* NewsRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A32944E3C3003322FA /* NewsRealmModel.swift */; };
+		04AC68A62944E557003322FA /* RealmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A52944E557003322FA /* RealmDataSource.swift */; };
 		920B261BC1A98ADDE46DA8B9 /* Pods_PastelCodingTest_PastelCodingTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */; };
 		99B9BA85DB9024224CBCB4E1 /* Pods_PastelCodingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1369E124E1DB6487EF54AB /* Pods_PastelCodingTestTests.framework */; };
 		A2ADBED9B44CF38C1F6F9BDD /* Pods_PastelCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07AB4E17841812BCA60A751 /* Pods_PastelCodingTest.framework */; };
@@ -52,6 +58,12 @@
 		04AC68882944DE8A003322FA /* PastelCodingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastelCodingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AC688C2944DE8A003322FA /* PastelCodingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelCodingTestUITests.swift; sourceTree = "<group>"; };
 		04AC688E2944DE8A003322FA /* PastelCodingTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelCodingTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04AC689B2944E0B3003322FA /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		04AC689D2944E0DE003322FA /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		04AC689F2944E10D003322FA /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		04AC68A12944E144003322FA /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		04AC68A32944E3C3003322FA /* NewsRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRealmModel.swift; sourceTree = "<group>"; };
+		04AC68A52944E557003322FA /* RealmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataSource.swift; sourceTree = "<group>"; };
 		19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PastelCodingTest_PastelCodingTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B39BAB94324116588F9633A /* Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTest-PastelCodingTestUITests/Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		31FB1B386D9D98B87B9B563E /* Pods-PastelCodingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTestTests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTestTests/Pods-PastelCodingTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +135,12 @@
 				04AC68742944DE8A003322FA /* Assets.xcassets */,
 				04AC68762944DE8A003322FA /* LaunchScreen.storyboard */,
 				04AC68792944DE8A003322FA /* Info.plist */,
+				04AC689B2944E0B3003322FA /* NewsModel.swift */,
+				04AC689D2944E0DE003322FA /* ApiHelper.swift */,
+				04AC689F2944E10D003322FA /* ConstantStrings.swift */,
+				04AC68A12944E144003322FA /* NewsViewModel.swift */,
+				04AC68A32944E3C3003322FA /* NewsRealmModel.swift */,
+				04AC68A52944E557003322FA /* RealmDataSource.swift */,
 			);
 			path = PastelCodingTest;
 			sourceTree = "<group>";
@@ -164,7 +182,6 @@
 				AC93E8F64854FA6172C2C848 /* Pods-PastelCodingTestTests.debug.xcconfig */,
 				31FB1B386D9D98B87B9B563E /* Pods-PastelCodingTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,9 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC689C2944E0B3003322FA /* NewsModel.swift in Sources */,
+				04AC68A62944E557003322FA /* RealmDataSource.swift in Sources */,
 				04AC68702944DE88003322FA /* ViewController.swift in Sources */,
+				04AC68A02944E10D003322FA /* ConstantStrings.swift in Sources */,
 				04AC686C2944DE88003322FA /* AppDelegate.swift in Sources */,
+				04AC68A22944E144003322FA /* NewsViewModel.swift in Sources */,
 				04AC686E2944DE88003322FA /* SceneDelegate.swift in Sources */,
+				04AC68A42944E3C3003322FA /* NewsRealmModel.swift in Sources */,
+				04AC689E2944E0DE003322FA /* ApiHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
