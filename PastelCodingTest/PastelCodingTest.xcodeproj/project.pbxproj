@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		04AC686C2944DE88003322FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC686B2944DE88003322FA /* AppDelegate.swift */; };
 		04AC686E2944DE88003322FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC686D2944DE88003322FA /* SceneDelegate.swift */; };
-		04AC68702944DE88003322FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC686F2944DE88003322FA /* ViewController.swift */; };
+		04AC68702944DE88003322FA /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC686F2944DE88003322FA /* NewsVC.swift */; };
 		04AC68732944DE88003322FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC68712944DE88003322FA /* Main.storyboard */; };
 		04AC68752944DE8A003322FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC68742944DE8A003322FA /* Assets.xcassets */; };
 		04AC68782944DE8A003322FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC68762944DE8A003322FA /* LaunchScreen.storyboard */; };
@@ -22,6 +22,17 @@
 		04AC68A22944E144003322FA /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A12944E144003322FA /* NewsViewModel.swift */; };
 		04AC68A42944E3C3003322FA /* NewsRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A32944E3C3003322FA /* NewsRealmModel.swift */; };
 		04AC68A62944E557003322FA /* RealmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A52944E557003322FA /* RealmDataSource.swift */; };
+		04AC68A82944F24D003322FA /* MainCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A72944F24D003322FA /* MainCordinator.swift */; };
+		04AC68AA2944F293003322FA /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68A92944F293003322FA /* UIViewExt.swift */; };
+		04AC68AC2944F2D4003322FA /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68AB2944F2D4003322FA /* NSObjectExt.swift */; };
+		04AC68AE2944F34C003322FA /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68AD2944F34C003322FA /* Cordinator.swift */; };
+		04AC68B02944F580003322FA /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68AF2944F580003322FA /* UIViewControllerExt.swift */; };
+		04AC68B22944F5A9003322FA /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68B12944F5A9003322FA /* AppColors.swift */; };
+		04AC68B42944F5FE003322FA /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68B32944F5FE003322FA /* UIColorExt.swift */; };
+		04AC68B62944F680003322FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC68B52944F680003322FA /* Colors.xcassets */; };
+		04AC68B82944F6EB003322FA /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68B72944F6EB003322FA /* NavigationBarView.swift */; };
+		04AC68BA2944F824003322FA /* NSLayoutExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68B92944F824003322FA /* NSLayoutExt.swift */; };
+		04AC68BC2944FB06003322FA /* TopNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68BB2944FB06003322FA /* TopNewsView.swift */; };
 		920B261BC1A98ADDE46DA8B9 /* Pods_PastelCodingTest_PastelCodingTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */; };
 		99B9BA85DB9024224CBCB4E1 /* Pods_PastelCodingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1369E124E1DB6487EF54AB /* Pods_PastelCodingTestTests.framework */; };
 		A2ADBED9B44CF38C1F6F9BDD /* Pods_PastelCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07AB4E17841812BCA60A751 /* Pods_PastelCodingTest.framework */; };
@@ -48,7 +59,7 @@
 		04AC68682944DE88003322FA /* PastelCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastelCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AC686B2944DE88003322FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AC686D2944DE88003322FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04AC686F2944DE88003322FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AC686F2944DE88003322FA /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		04AC68722944DE88003322FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AC68742944DE8A003322FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AC68772944DE8A003322FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +75,17 @@
 		04AC68A12944E144003322FA /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		04AC68A32944E3C3003322FA /* NewsRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRealmModel.swift; sourceTree = "<group>"; };
 		04AC68A52944E557003322FA /* RealmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataSource.swift; sourceTree = "<group>"; };
+		04AC68A72944F24D003322FA /* MainCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCordinator.swift; sourceTree = "<group>"; };
+		04AC68A92944F293003322FA /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		04AC68AB2944F2D4003322FA /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
+		04AC68AD2944F34C003322FA /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
+		04AC68AF2944F580003322FA /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		04AC68B12944F5A9003322FA /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		04AC68B32944F5FE003322FA /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		04AC68B52944F680003322FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		04AC68B72944F6EB003322FA /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		04AC68B92944F824003322FA /* NSLayoutExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutExt.swift; sourceTree = "<group>"; };
+		04AC68BB2944FB06003322FA /* TopNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsView.swift; sourceTree = "<group>"; };
 		19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PastelCodingTest_PastelCodingTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B39BAB94324116588F9633A /* Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTest-PastelCodingTestUITests/Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		31FB1B386D9D98B87B9B563E /* Pods-PastelCodingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTestTests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTestTests/Pods-PastelCodingTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +152,7 @@
 			children = (
 				04AC686B2944DE88003322FA /* AppDelegate.swift */,
 				04AC686D2944DE88003322FA /* SceneDelegate.swift */,
-				04AC686F2944DE88003322FA /* ViewController.swift */,
+				04AC686F2944DE88003322FA /* NewsVC.swift */,
 				04AC68712944DE88003322FA /* Main.storyboard */,
 				04AC68742944DE8A003322FA /* Assets.xcassets */,
 				04AC68762944DE8A003322FA /* LaunchScreen.storyboard */,
@@ -141,6 +163,17 @@
 				04AC68A12944E144003322FA /* NewsViewModel.swift */,
 				04AC68A32944E3C3003322FA /* NewsRealmModel.swift */,
 				04AC68A52944E557003322FA /* RealmDataSource.swift */,
+				04AC68A72944F24D003322FA /* MainCordinator.swift */,
+				04AC68A92944F293003322FA /* UIViewExt.swift */,
+				04AC68AB2944F2D4003322FA /* NSObjectExt.swift */,
+				04AC68AD2944F34C003322FA /* Cordinator.swift */,
+				04AC68AF2944F580003322FA /* UIViewControllerExt.swift */,
+				04AC68B12944F5A9003322FA /* AppColors.swift */,
+				04AC68B32944F5FE003322FA /* UIColorExt.swift */,
+				04AC68B52944F680003322FA /* Colors.xcassets */,
+				04AC68B72944F6EB003322FA /* NavigationBarView.swift */,
+				04AC68B92944F824003322FA /* NSLayoutExt.swift */,
+				04AC68BB2944FB06003322FA /* TopNewsView.swift */,
 			);
 			path = PastelCodingTest;
 			sourceTree = "<group>";
@@ -295,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC68782944DE8A003322FA /* LaunchScreen.storyboard in Resources */,
+				04AC68B62944F680003322FA /* Colors.xcassets in Resources */,
 				04AC68752944DE8A003322FA /* Assets.xcassets in Resources */,
 				04AC68732944DE88003322FA /* Main.storyboard in Resources */,
 			);
@@ -425,13 +459,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC689C2944E0B3003322FA /* NewsModel.swift in Sources */,
+				04AC68AE2944F34C003322FA /* Cordinator.swift in Sources */,
 				04AC68A62944E557003322FA /* RealmDataSource.swift in Sources */,
-				04AC68702944DE88003322FA /* ViewController.swift in Sources */,
+				04AC68B22944F5A9003322FA /* AppColors.swift in Sources */,
+				04AC68702944DE88003322FA /* NewsVC.swift in Sources */,
+				04AC68A82944F24D003322FA /* MainCordinator.swift in Sources */,
 				04AC68A02944E10D003322FA /* ConstantStrings.swift in Sources */,
+				04AC68AA2944F293003322FA /* UIViewExt.swift in Sources */,
 				04AC686C2944DE88003322FA /* AppDelegate.swift in Sources */,
+				04AC68BC2944FB06003322FA /* TopNewsView.swift in Sources */,
+				04AC68B42944F5FE003322FA /* UIColorExt.swift in Sources */,
 				04AC68A22944E144003322FA /* NewsViewModel.swift in Sources */,
+				04AC68B82944F6EB003322FA /* NavigationBarView.swift in Sources */,
 				04AC686E2944DE88003322FA /* SceneDelegate.swift in Sources */,
+				04AC68AC2944F2D4003322FA /* NSObjectExt.swift in Sources */,
 				04AC68A42944E3C3003322FA /* NewsRealmModel.swift in Sources */,
+				04AC68B02944F580003322FA /* UIViewControllerExt.swift in Sources */,
+				04AC68BA2944F824003322FA /* NSLayoutExt.swift in Sources */,
 				04AC689E2944E0DE003322FA /* ApiHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
