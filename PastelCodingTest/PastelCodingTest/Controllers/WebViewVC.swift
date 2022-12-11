@@ -104,9 +104,11 @@ extension WebViewVC: WKNavigationDelegate, WKUIDelegate {
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         debugPrint("Finished loading")
+        dismiss(animated: true, completion: nil)
     }
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        showSpinnerView()
         debugPrint("Started loading")
     }
     

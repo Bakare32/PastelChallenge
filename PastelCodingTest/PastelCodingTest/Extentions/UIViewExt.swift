@@ -31,6 +31,12 @@ extension UIView {
         }
     }
     
+    func roundedBg(bgColor: UIColor? = TRANSPARENT, radius: CGFloat? = 13.0) {
+        layer.cornerRadius = radius!
+        layer.masksToBounds = true
+        layer.backgroundColor = bgColor?.cgColor
+    }
+    
     /// Anchor of the view
     enum Anchor: CaseIterable {
         case top

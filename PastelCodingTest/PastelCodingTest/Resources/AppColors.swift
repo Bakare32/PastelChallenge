@@ -21,6 +21,7 @@ let LIGHT_GRAY = UIColor(hex: "F4F5F5")
 let NEW_LINE = UIColor(hex: "F3F3F3")
 let INVITE_LINE = UIColor(hex: "E8F8F6")
 let LABEL_COLOR = UIColor(hex: "717474")
+let TRANSPARENT = UIColor.white.withAlphaComponent(0)
 
 
 // Dark Mode Support

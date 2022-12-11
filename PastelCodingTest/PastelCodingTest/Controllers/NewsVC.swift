@@ -23,7 +23,7 @@ class NewsVC: UIViewController {
         configureUI()
         getStories()
     }
-    
+
     // MARK: - Visual Setup
     func configureUI() {
         setBackgroundColor()
@@ -54,7 +54,7 @@ class NewsVC: UIViewController {
     func setUpAutoLayout() {
         navigationBar.apply {
             $0.backgroundColor = BLACK_COLOR.withAlphaComponent(0.5)
-            $0.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).activate()
+            $0.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).activate()
             $0.leadingAnchor.constraint(equalTo: view.leadingAnchor).activate()
             $0.trailingAnchor.constraint(equalTo: view.trailingAnchor).activate()
             $0.heightAnchor.constraint(equalToConstant: 60).activate()
