@@ -53,7 +53,7 @@ class NewsVC: UIViewController {
     
     func setUpAutoLayout() {
         navigationBar.apply {
-            $0.backgroundColor = LIGHT_VIEW_COLOR
+            $0.backgroundColor = BLACK_COLOR.withAlphaComponent(0.5)
             $0.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).activate()
             $0.leadingAnchor.constraint(equalTo: view.leadingAnchor).activate()
             $0.trailingAnchor.constraint(equalTo: view.trailingAnchor).activate()
@@ -61,7 +61,7 @@ class NewsVC: UIViewController {
         }
         
         topNewsBar.apply {
-            $0.viewBackgroundWhite()
+            $0.backgroundColor = BLACK_COLOR
             $0.topAnchor.constraint(equalTo: navigationBar.bottomAnchor, constant: 0).activate()
             $0.leadingAnchor.constraint(equalTo: view.leadingAnchor).activate()
             $0.trailingAnchor.constraint(equalTo: view.trailingAnchor).activate()
@@ -104,11 +104,11 @@ extension NewsVC {
                 // Results are now populated and can be accessed without blocking the UI
                 self?.setUpStoryListener()
                 collectionView.reloadData()
-                debugPrint("STORIES INITIAL UPDATE!!!!!")
+                debugPrint("NEWS INITIAL UPDATE!!!!!")
             case .update(_, _, _, _):
                 // Query results have changed, so apply them to the UITableView
                 //self?.setUpTableView()
-                debugPrint("STORIES CHANGES!!!!")
+                debugPrint("NEWS CHANGES!!!!")
                 self?.setUpStoryListener()
                 collectionView.reloadData()
             case .error(let error):

@@ -40,7 +40,7 @@ class TopNewsView: UIView {
         titleLabel.apply {
             $0.numberOfLines = 2
             $0.font = UIFont.systemFont(ofSize: 12)
-            $0.textColor = PRIMARY_TEXT_COLOR
+            $0.textColor = WHITE_COLOR
             $0.adjustsFontSizeToFitWidth = true
             $0.minimumScaleFactor = 0.5
         }

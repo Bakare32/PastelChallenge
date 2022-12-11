@@ -162,6 +162,7 @@
 		04AC686A2944DE88003322FA /* PastelCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				04AC68D129462BB8003322FA /* Cells */,
 				04AC68C42944FD98003322FA /* Util */,
 				04AC68C32944FD24003322FA /* Protocol */,
 				04AC68C22944FD1B003322FA /* Model */,
@@ -170,12 +171,9 @@
 				04AC68BF2944FD02003322FA /* Views */,
 				04AC68BE2944FCE4003322FA /* Resources */,
 				04AC68BD2944FCC1003322FA /* Extentions */,
-				04AC686B2944DE88003322FA /* AppDelegate.swift */,
-				04AC686D2944DE88003322FA /* SceneDelegate.swift */,
 				04AC68712944DE88003322FA /* Main.storyboard */,
 				04AC68762944DE8A003322FA /* LaunchScreen.storyboard */,
 				04AC68792944DE8A003322FA /* Info.plist */,
-				04AC68C72944FF8E003322FA /* NewsCell.swift */,
 			);
 			path = PastelCodingTest;
 			sourceTree = "<group>";
@@ -235,6 +233,8 @@
 		04AC68C02944FD09003322FA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				04AC686B2944DE88003322FA /* AppDelegate.swift */,
+				04AC686D2944DE88003322FA /* SceneDelegate.swift */,
 				04AC686F2944DE88003322FA /* NewsVC.swift */,
 				04AC68CD2945E80A003322FA /* WebViewVC.swift */,
 			);
@@ -275,6 +275,14 @@
 				04AC689F2944E10D003322FA /* ConstantStrings.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		04AC68D129462BB8003322FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04AC68C72944FF8E003322FA /* NewsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		72C26D1EA1B0979C01C84097 /* Frameworks */ = {
