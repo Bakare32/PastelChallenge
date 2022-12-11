@@ -41,7 +41,6 @@ class NewsViewModel: ApiHelper {
                 })
                 
                 debugPrint("the newslist is \(self.newsList)")
-                
                 self.saveNews(news: self.newsList)
                 
             case .failure(let error):

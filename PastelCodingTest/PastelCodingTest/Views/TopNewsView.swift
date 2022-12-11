@@ -1,5 +1,5 @@
 //
-//  NavigationBarView.swift
+//  TopNewsView.swift
 //  PastelCodingTest
 //
 //  Created by mac on 10/12/2022.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-class NavigationBarView: UIView {
-    
-    var largeTitlelabel = UILabel().manualLayoutable()
+class TopNewsView: UIView {
+
+    var titleLabel = UILabel().manualLayoutable()
     var blurEffectView = UIVisualEffectView()
 
     override init(frame: CGRect) {
@@ -20,12 +20,12 @@ class NavigationBarView: UIView {
     
     convenience init(title: String) {
         self.init(frame: .zero)
-        largeTitlelabel.text = title
+        titleLabel.text = title
     }
     
     private func setUpProperties() {
         
-        addSubview(largeTitlelabel)
+        addSubview(titleLabel)
         
         self.apply {
             let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.regular)
@@ -37,9 +37,9 @@ class NavigationBarView: UIView {
             $0.sendSubviewToBack(blurEffectView)
         }
         
-        largeTitlelabel.apply {
+        titleLabel.apply {
             $0.numberOfLines = 2
-            $0.font = UIFont.systemFont(ofSize: 20)
+            $0.font = UIFont.systemFont(ofSize: 12)
             $0.textColor = PRIMARY_TEXT_COLOR
             $0.adjustsFontSizeToFitWidth = true
             $0.minimumScaleFactor = 0.5
@@ -48,8 +48,8 @@ class NavigationBarView: UIView {
     }
     
     private func setUpAutoLayout() {
-        largeTitlelabel.apply {
-            $0.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).activate()
+        titleLabel.apply {
+            $0.centerXAnchor.constraint(equalTo: centerXAnchor).activate()
             $0.centerYAnchor.constraint(equalTo: centerYAnchor).activate()
         }
         
@@ -62,5 +62,6 @@ class NavigationBarView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
 
 }

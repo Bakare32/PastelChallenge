@@ -10,8 +10,8 @@ import RealmSwift
 
 class NewsRealmModel: Object {
     
-    @Persisted(primaryKey: true) var id: Int?
-    @Persisted var title: String?
+    @Persisted var id: Int?
+    @Persisted (primaryKey: true) var title: String?
     @Persisted var author: String?
     @Persisted var urlToImage: String?
     @Persisted var url: String?
