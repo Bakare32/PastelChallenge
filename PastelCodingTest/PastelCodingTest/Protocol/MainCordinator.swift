@@ -26,10 +26,14 @@ class MainCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: false)
     }
     
-    func openWebView() {
+    func openWebView(pageTitle: String, pageURL: String) {
         let vc = WebViewVC()
         vc.coordinator = self
-        navigationController.pushViewController(vc, animated: false)
+        vc.modalPresentationStyle = .fullScreen
+        vc.pageTitle = pageTitle
+        vc.pageUrl = pageURL
+        navigationController.present(vc, animated: true)
+//        navigationController.pushViewController(vc, animated: false)
     }
     
 }

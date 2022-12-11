@@ -38,6 +38,7 @@
 		04AC68CA294505C1003322FA /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68C9294505C1003322FA /* UIImageViewExt.swift */; };
 		04AC68CC2945E65D003322FA /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68CB2945E65D003322FA /* StringExt.swift */; };
 		04AC68CE2945E80A003322FA /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68CD2945E80A003322FA /* WebViewVC.swift */; };
+		04AC68D02945EFF0003322FA /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC68CF2945EFF0003322FA /* UIButtonExt.swift */; };
 		920B261BC1A98ADDE46DA8B9 /* Pods_PastelCodingTest_PastelCodingTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */; };
 		99B9BA85DB9024224CBCB4E1 /* Pods_PastelCodingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1369E124E1DB6487EF54AB /* Pods_PastelCodingTestTests.framework */; };
 		A2ADBED9B44CF38C1F6F9BDD /* Pods_PastelCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07AB4E17841812BCA60A751 /* Pods_PastelCodingTest.framework */; };
@@ -96,6 +97,7 @@
 		04AC68C9294505C1003322FA /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
 		04AC68CB2945E65D003322FA /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		04AC68CD2945E80A003322FA /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		04AC68CF2945EFF0003322FA /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 		19C0A9EE5C1369FB6638B79A /* Pods_PastelCodingTest_PastelCodingTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PastelCodingTest_PastelCodingTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B39BAB94324116588F9633A /* Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTest-PastelCodingTestUITests/Pods-PastelCodingTest-PastelCodingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		31FB1B386D9D98B87B9B563E /* Pods-PastelCodingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelCodingTestTests.release.xcconfig"; path = "Target Support Files/Pods-PastelCodingTestTests/Pods-PastelCodingTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				04AC68B92944F824003322FA /* NSLayoutExt.swift */,
 				04AC68C9294505C1003322FA /* UIImageViewExt.swift */,
 				04AC68CB2945E65D003322FA /* StringExt.swift */,
+				04AC68CF2945EFF0003322FA /* UIButtonExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC689C2944E0B3003322FA /* NewsModel.swift in Sources */,
+				04AC68D02945EFF0003322FA /* UIButtonExt.swift in Sources */,
 				04AC68AE2944F34C003322FA /* Cordinator.swift in Sources */,
 				04AC68A62944E557003322FA /* RealmDataSource.swift in Sources */,
 				04AC68B22944F5A9003322FA /* AppColors.swift in Sources */,

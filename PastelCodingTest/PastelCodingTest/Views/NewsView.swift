@@ -128,7 +128,10 @@ extension NewsView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         debugPrint("yess")
-        coordinator?.openWebView()
+        let obj = newsList[indexPath.row]
+        debugPrint(obj.url)
+        debugPrint(obj.title)
+        coordinator?.openWebView(pageTitle: obj.title ?? "", pageURL: obj.url ?? "")
     }
     
 }
