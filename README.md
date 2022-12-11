@@ -8,4 +8,5 @@ and the webView display the news in details
 NOTES:
 
 1.On the WebView, a spinnerview will be display and it will only dismiss once all the data in the url has already be implemented.
+2. Due to the use of Third-party Libraries, please in order to run this app, please run pod install in your terminal.
 
